@@ -1,0 +1,32 @@
+body{
+    background-color: #967E76;
+    color: #D7C0AE;
+    font-family: "Ubuntu", sans-serif;
+}
+.moods{
+    height: 45%;
+    width: 45%;
+}
+/* 
+#9BABB8  #EEE3CB #D7C0AE #967E76
+https://colorhunt.co/palette/9babb8eee3cbd7c0ae967e76
+*/
+
+span{
+    color: #EEE3CB;
+    font-weight: 800;
+}
+
+.titles{
+    
+    color: #EEE3CB;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-link{
+    color: #9BABB8;
+}
+
