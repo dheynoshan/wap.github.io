@@ -18,8 +18,10 @@ span{
 }
 
 .titles{
-    
     color: #EEE3CB;
+}
+.titles:hover{
+    color: #9BABB8;
 }
 
 a{
