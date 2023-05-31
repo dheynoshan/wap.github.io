@@ -31,7 +31,7 @@ body{
 .logout-button{
     height: 30px;
     width: 100px;
-    margin-left: 30%;
+    margin-left: 40%;
     color: #DDE6ED;
     background-color: #27374D;
 
@@ -84,6 +84,7 @@ td{
 .po-button-div{
     padding-top: 20px;
     padding-bottom: 20px;
+    height: 100px;
     
 }
 
@@ -101,6 +102,18 @@ td{
     width: 102px;
 
 
+}
+
+.header-item1{
+    width: 33%;
+}
+
+.header-item2{
+    width: 33%;
+}
+
+.header-item3{
+    width: 33%;
 }
 
 /* https://colorhunt.co/palette/27374d526d829db2bfdde6ed */
