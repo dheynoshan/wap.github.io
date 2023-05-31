@@ -1,10 +1,109 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+body{
+    font-family: "Ubuntu";
+    color: #526D82;
+    background-color: #27374D;
+}
+
 .shopping-cart{
     height: 20px
 }
 .logo{
     height: 100px;
+    margin: 0;
 }
 
 .add-rmv-icons{
     height: 15px;
 }
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.logout-button{
+    height: 30px;
+    width: 100px;
+    margin-left: 30%;
+    color: #DDE6ED;
+    background-color: #27374D;
+
+}
+
+.welcome-title{
+    width: auto;
+    display: inline-block;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+th{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+td{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+.input-field{
+    width: 30px;
+    height: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.container{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    background-color: #DDE6ED;
+    padding: 20px;
+}
+
+.po-button-div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.place-order{
+    align-self: flex-end;
+    margin-left: 75%;
+    height: 30px;
+    width: 100px;
+    color: #DDE6ED;
+    background-color: #27374D;
+}
+
+.button-hover:hover{
+    height: 32px;
+    width: 102px;
+
+
+}
+
+/* https://colorhunt.co/palette/27374d526d829db2bfdde6ed */
+
+
+
