@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div>
+      <img class="logo" src="../img/lab3/logo.png" alt="Logo" />
+      <p>Welcome, Dheynoshan</p>
+      <button>Logout</button>
+    </div>
+    <div>
+      <h2>Product List</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Stock</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+            <td>Node.js</td>
+            <td>9.99</td>
+            <td>8</td>
+            <td><img class="shopping-cart" src="../img/lab3/shopping-cart.png" alt="Add to cart"></td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>19.99</td>
+            <td>5</td>
+            <td><img class="shopping-cart" src="../img/lab3/shopping-cart.png" alt="Add to cart"></td>
+        </tr>
+        <tr>
+            <td>Angular</td>
+            <td>29.99</td>
+            <td>13</td>
+            <td><img class="shopping-cart" src="../img/lab3/shopping-cart.png" alt="Add to cart"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+        <h2>Your Shopping Cart</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>total</th>
+                <th>Quantity</th>
+              </tr>
+              <tr>
+                  <td>Node.js</td>
+                  <td>9.99</td>
+                  <td>9.99</td>
+                  <td><img class="add-rmv-icons" src="../img/lab3/add.png" alt=""><input type="text"><img class="add-rmv-icons" src="../img/lab3/remove.png" alt=""></td>
+              </tr>
+              <tr>
+                  <td>Angular</td>
+                  <td>29.99</td>
+                  <td>290.99</td>
+                  <td><img class="add-rmv-icons" src="../img/lab3/add.png" alt=""><input type="text"><img class="add-rmv-icons" src="../img/lab3/remove.png" alt=""></td>
+              </tr>
+              <tr>
+                <td rowspan="4">Total: 300.98</td>
+              </tr>
+
+        </table>
+
+        <button>Place Order</button>
+    </div>
+  </body>
+</html>
