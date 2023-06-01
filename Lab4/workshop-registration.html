@@ -23,26 +23,30 @@
           </select>
         </div>
         <!-- End of header div -->
+        <div class="message-container">
+          <span class="message">Register now while seats are available!</span>
+        </div>
         <!-- Split container -->
         <div class="split-container">
+            <!-- <span>Register now while seats are available!</span> -->
           <!-- Begining of the left-container -->
           <div class="left-container">
             <table>
               <tr>
-                <td class="label-column"><label>First Name</label></td>
+                <td class="label-column"><label>First Name<span class="required">*</span></label></td>
                 <td class="input-column"><input type="text" name="first-name" /></td>
               </tr>
               <tr>
-                <td class="label-column"><label>Last Name</label></td>
+                <td class="label-column"><label>Last Name<span class="required">*</span></label></td>
                 <td class="input-column"><input type="text" name="last-name" /></td>
               </tr>
               <tr>
-                <td class="label-column"><label>Company/Institution</label></td>
+                <td class="label-column"><label>Company/Institution<span class="required">*</span></label></td>
                 <td class="input-column"><input type="text" name="institute" /></td>
               </tr>
               <tr>
-                <td class="label-column"><label>Address</label></td>
-                <td><textarea name="address" id="address-id" cols="30" rows="10"></textarea></td>
+                <td class="label-column"><label>Address<span class="required">*</span></label></td>
+                <td><textarea name="address" id="address-id" cols="20" rows="10"></textarea></td>
               </tr>
               <tr>
                 <td class="label-column"><label>City</label></td>
@@ -65,11 +69,11 @@
                 </td>
               </tr>
               <tr>
-                <td class="label-column"><label>Email</label></td>
+                <td class="label-column"><label>Email<span class="required">*</span></label></td>
                 <td class="input-column"><input type="email" name="email" id="email-id" /></td>
               </tr>
               <tr>
-                <td class="label-column"><label>Phone Number</label></td>
+                <td class="label-column"><label>Phone Number<span class="required">*</span></label></td>
                 <td class="input-column"><input type="text" name="phone" /></td>
               </tr>
             </table>
