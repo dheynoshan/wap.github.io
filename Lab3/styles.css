@@ -84,7 +84,7 @@ td{
 .po-button-div{
     padding-top: 20px;
     padding-bottom: 20px;
-    height: 100px;
+    height: 75px;
     
 }
 
@@ -116,6 +116,15 @@ td{
     width: 33%;
 }
 
+.validator-icon{
+    width:114px;
+    height: 40px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
 /* https://colorhunt.co/palette/27374d526d829db2bfdde6ed */
 
 
