@@ -84,3 +84,14 @@ h2{
     height: 20px;
     margin-left: 50px;
 }
+
+a{
+    text-decoration: none;
+}
+
+
+.validator-icon{
+    width:114px;
+    height: 40px;
+    padding: 5px;
+}
