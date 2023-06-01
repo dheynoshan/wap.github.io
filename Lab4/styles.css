@@ -1,0 +1,86 @@
+/* https://colorhunt.co/palette/025464e57c23e8aa42f8f1f1 */
+
+body{
+    font-family: "Ubuntu";
+    margin: 0px;
+    background-color: #F8F1F1;
+    color: #F8F1F1;
+}
+.left-container{
+    display: grid;
+    width: 50%;
+    background-color: #025464;
+}
+.right-container{
+    display: grid;
+    width: 50%;
+    background-color: #025464;
+}
+
+.split-container{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    background-color: #E57C23;
+    padding: 10px;
+    align-items: center;
+}
+.footer{
+    background-color: #E57C23;
+}
+
+label{
+    font-size: 14px;
+    
+}
+table{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.main-container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.label-column{
+    width: 200px;
+    height: 30px;
+}
+
+.input-column{
+    width: 100px;
+}
+
+h2{
+    height: 30px;
+}
+
+.footer{
+    height: 75px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.button{
+    height: 50px;
+    width: 120px;
+    margin: 10px;
+    background-color: #F8F1F1;
+    border: none;
+
+}
+
+.button:hover{
+    background-color: #025464;
+    color: #F8F1F1;
+}
+
+.header-select{
+    height: 20px;
+    margin-left: 50px;
+}

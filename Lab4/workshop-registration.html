@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+    />
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div class="main-container">
+      <form method="get" action="#">
+        <!-- Header Div -->
+        <div class="header">
+          <h1>Workshop Registration</h1>
+          <select class="header-select" name="" id="">
+            <option value="">More Action</option>
+          </select>
+        </div>
+        <!-- End of header div -->
+        <!-- Split container -->
+        <div class="split-container">
+          <!-- Begining of the left-container -->
+          <div class="left-container">
+            <table>
+              <tr>
+                <td class="label-column"><label>First Name</label></td>
+                <td class="input-column"><input type="text" name="first-name" /></td>
+              </tr>
+              <tr>
+                <td class="label-column"><label>Last Name</label></td>
+                <td class="input-column"><input type="text" name="last-name" /></td>
+              </tr>
+              <tr>
+                <td class="label-column"><label>Company/Institution</label></td>
+                <td class="input-column"><input type="text" /></td>
+              </tr>
+              <tr>
+                <td class="label-column"><label>Address</label></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+              </tr>
+              <tr>
+                <td class="label-column"><label>City</label></td>
+                <td class="input-column"><input type="text" name="city" /></td>
+              </tr>
+              <tr>
+                <td class="label-column"><label>State/Provience/Region </label></td>
+                <td class="input-column">
+                  <select name="" id="">
+                    <option value="">-Select-</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="label-column"><label>Country</label></td>
+                <td class="input-column">
+                  <select name="" id="">
+                    <option value="">-Select-</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="label-column"><label>Email</label></td>
+                <td class="input-column"><input type="email" name="" id="" /></td>
+              </tr>
+              <tr>
+                <td class="label-column"><label>Phone Number</label></td>
+                <td class="input-column"><input type="text" /></td>
+              </tr>
+            </table>
+          </div>
+          <!-- End of the left container -->
+
+          <!-- Begining of the right container -->
+          <div class="right-container">
+            <h2>Lunch</h2>
+            <table>
+              <tr>
+                <td class="label-column"><label>Meal Preference </label></td>
+                <td>
+                  <select name="" id="">
+                    <option value="">Vegitarian</option>
+                    <option value="">Non-vegitarian</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+
+            <h2>Payment Details</h2>
+
+            <table>
+              <tr>
+                <td class="label-column"><label>Payment Mode </label></td>
+                <td>
+                  <input type="radio" name="payment-mode" id="" />Cash
+                  <input type="radio" name="payment-mode" id="" />Cheque
+                  <input type="radio" name="payment-mode" id="" />Demand Draft
+                </td>
+              </tr>
+            </table>
+
+            <table>
+              <tr>
+                <td class="label-column"><label for="">DD/Cheque No. </label></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td class="label-column"><label for="">Drawn On (Bank Name) </label></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td class="label-column"><label for="">Payable At </label></td>
+                <td><input type="text" /></td>
+              </tr>
+            </table>
+          </div>
+          <!-- End of the right container -->
+        </div>
+        <!-- Begining of the footer -->
+        <div class="footer">
+          <input class="button" type="submit" value="Submit" />
+          <input class="button" type="reset" value="Reset" />
+        </div>
+        <!-- end of footer -->
+      </form>
+    </div>
+    <!-- end of main container -->
+  </body>
+</html>
