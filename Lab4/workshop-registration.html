@@ -18,7 +18,7 @@
         <!-- Header Div -->
         <div class="header">
           <h1>Workshop Registration</h1>
-          <select class="header-select" name="" id="">
+          <select class="header-select" name="more-action" id="more-action-id">
             <option value="">More Action</option>
           </select>
         </div>
@@ -38,11 +38,11 @@
               </tr>
               <tr>
                 <td class="label-column"><label>Company/Institution</label></td>
-                <td class="input-column"><input type="text" /></td>
+                <td class="input-column"><input type="text" name="institute" /></td>
               </tr>
               <tr>
                 <td class="label-column"><label>Address</label></td>
-                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                <td><textarea name="address" id="address-id" cols="30" rows="10"></textarea></td>
               </tr>
               <tr>
                 <td class="label-column"><label>City</label></td>
@@ -51,7 +51,7 @@
               <tr>
                 <td class="label-column"><label>State/Provience/Region </label></td>
                 <td class="input-column">
-                  <select name="" id="">
+                  <select name="state" id="state-id">
                     <option value="">-Select-</option>
                   </select>
                 </td>
@@ -59,18 +59,18 @@
               <tr>
                 <td class="label-column"><label>Country</label></td>
                 <td class="input-column">
-                  <select name="" id="">
+                  <select name="country" id="country-id">
                     <option value="">-Select-</option>
                   </select>
                 </td>
               </tr>
               <tr>
                 <td class="label-column"><label>Email</label></td>
-                <td class="input-column"><input type="email" name="" id="" /></td>
+                <td class="input-column"><input type="email" name="email" id="email-id" /></td>
               </tr>
               <tr>
                 <td class="label-column"><label>Phone Number</label></td>
-                <td class="input-column"><input type="text" /></td>
+                <td class="input-column"><input type="text" name="phone" /></td>
               </tr>
             </table>
           </div>
@@ -83,7 +83,7 @@
               <tr>
                 <td class="label-column"><label>Meal Preference </label></td>
                 <td>
-                  <select name="" id="">
+                  <select name="meal-preference" id="meal-preference-id">
                     <option value="">Vegitarian</option>
                     <option value="">Non-vegitarian</option>
                   </select>
@@ -97,24 +97,24 @@
               <tr>
                 <td class="label-column"><label>Payment Mode </label></td>
                 <td>
-                  <input type="radio" name="payment-mode" id="" />Cash
-                  <input type="radio" name="payment-mode" id="" />Cheque
-                  <input type="radio" name="payment-mode" id="" />Demand Draft
+                  <input type="radio" name="payment-mode" id="cash-id" />Cash
+                  <input type="radio" name="payment-mode" id=cheque-id" />Cheque
+                  <input type="radio" name="payment-mode" id="dd-id" />Demand Draft
                 </td>
               </tr>
             </table>
 
             <table>
               <tr>
-                <td class="label-column"><label for="">DD/Cheque No. </label></td>
+                <td class="label-column"><label>DD/Cheque No. </label></td>
                 <td><input type="text" /></td>
               </tr>
               <tr>
-                <td class="label-column"><label for="">Drawn On (Bank Name) </label></td>
+                <td class="label-column"><label>Drawn On (Bank Name) </label></td>
                 <td><input type="text" /></td>
               </tr>
               <tr>
-                <td class="label-column"><label for="">Payable At </label></td>
+                <td class="label-column"><label>Payable At </label></td>
                 <td><input type="text" /></td>
               </tr>
             </table>
