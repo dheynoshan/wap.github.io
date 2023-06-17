@@ -1,18 +1,20 @@
 const express = require("express");
-const fs = require("fs");
-const path = require("path");
+const productRouter = require('./routes/productRouter');
+const userRouter = require('./routes/userRoute');
+const path = require('path');
 
 const app = express();
 
 app.enable("case sensitive routing");
 
-app.use("/users", (req, res, next) => {
-    fs.
-  res.send("Hi");
-});
+app.use(express.static(path.join(__dirname, 'static')));
 
-app.use("/products", (req, res, next) => {
-    res.send("products");
+
+app.use("/products",productRouter);
+app.use("/user",userRouter);
+
+app.use((req, res, next) => {
+  res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
 
 app.listen(3000, () => console.log("Listening on 3000"));
